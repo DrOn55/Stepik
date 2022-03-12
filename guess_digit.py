@@ -2,8 +2,7 @@
 
 from random import *
 
-#right_border = 100
-#   Ввод правой границы
+#   input right border
 def is_right_border():
     print('Введите число, до которого будем угадывать.', 'Начальное число 1', sep='\n')
     global right_border

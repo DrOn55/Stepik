@@ -1,13 +1,14 @@
 from random import *
 
+#   initial data
 digits = '0123456789'
 lowercase_letters = 'abcdefghijklmnopqrstuvwxyz'
 uppercase_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 punctuation = '!#$%&*+-=?@^_'
 similar_symbols = 'il1Lo0O'
-
 chars = ''
 
+#   clarifying questions
 amount_pw = input('Сколько паролей нужно сгенерировать?')
 len_pw = input('Сколько символов длинной должен быть пароль?')
 use_digits = input('Использовать цифры? (да/нет)')
